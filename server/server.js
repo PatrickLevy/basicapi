@@ -4,7 +4,6 @@ const bodyParser = require('body-parser')
 const app = express();
 const moment = require('moment');
 const monk = require('monk');
-const craigslist = require('node-craigslist');
 const axios = require('axios');
 
 // global var to cache most recent event, could connect to db in future
