@@ -20,5 +20,8 @@
 - Send a `GET` message (or open a browser) to `localhost:3001/arbitrary`
 
 ### Next Steps:
-- The data that is sent will currently be lost if you server is stopped. A good next step would be to hook up this api to a database for more permanent storage. Have fun!
+- The data that is sent will currently be lost if you server is stopped. A good next step would be to hook up this api to a database for more permanent storage.
+- Host this on a remote server so that your front end web application can access it. Use the native JavaScript Fetch api, jQuery, or NPM package axios to make requests to this backend api server.
+
+Have fun!
 
