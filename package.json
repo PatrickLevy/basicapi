@@ -1,0 +1,22 @@
+{
+  "name": "workerbee",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "http": "0.0.0",
+    "moment": "^2.19.3",
+    "monk": "^6.0.5",
+    "node-craigslist": "^1.2.2",
+    "request": "^2.83.0"
+  }
+}
