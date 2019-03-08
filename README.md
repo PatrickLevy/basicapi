@@ -1,23 +1,17 @@
-# workerbeeEndpoint
+# Super Basic API Example
 
-Workerbee is going to be the node server endpoint that I use whenever I need to do stuff with external applications. The first thing that I am going to do is use it to make a rubber rat's eyes light up when there is a pull request.
+### To Run Locally
+- Install Node (this should also install npm - node package manager)
+- Clone this repo
+- From the root directory run `npm install`
+- It should say `Listening on Port 3001`
 
-- It should be able to distinguish between an open and closed pr now
-- Test whether the server is alive: http://104.236.192.112:3001/amialive
-- Polling for the last action (open or closed) can now be peformed by performing a GET request at: http://104.236.192.112:3001/github-webhooks
-- POST and GET arbitrary data: http://104.236.192.112:3001/arbitrary
+### To Test that the Server is Running
+- Open a browser and go to localhost:3001/amialive
+- It should say `{"data":"Yes, I'm alive!"}`
 
+### To Test Posting Data
+- Download a tool like Postman or Insomnia
+- Send a post message to `localhost:3001/arbitrary` with a `URL Encoded Form`: 
+- message: 'some message', action: 'some action'
 
-- Store an average time that PR's are open, and indicate somehow
-- Lights turn on for 5 minutes when there is an open pr
-- Lights turn flash when a pr is merged
-
-- here's a change
-
-- another
-
-- it's coming together
-
-_ yeah
-
-- blah
