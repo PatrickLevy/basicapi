@@ -12,6 +12,13 @@
 
 ### To Test Posting Data
 - Download a tool like Postman or Insomnia
-- Send a post message to `localhost:3001/arbitrary` with a `URL Encoded Form`: 
+- Send a `POST` message to `localhost:3001/arbitrary` with a `URL Encoded Form`: 
 - message: 'some message', action: 'some action'
+
+### To Test Retrieving the Last Posted Data
+- Download a tool like Postman or Insomnia
+- Send a `GET` message to `localhost:3001/arbitrary`
+
+### Next Steps:
+- The data that is sent will currently be lost if you server is stopped. A good next step would be to hook up this api to a database for more permanent storage. Have fun!
 
