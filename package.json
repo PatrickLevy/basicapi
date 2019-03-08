@@ -16,7 +16,6 @@
     "http": "0.0.0",
     "moment": "^2.19.3",
     "monk": "^6.0.5",
-    "node-craigslist": "^1.2.2",
     "request": "^2.83.0"
   }
 }
