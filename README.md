@@ -4,6 +4,7 @@
 - Install Node (this should also install npm - node package manager)
 - Clone this repo
 - From the root directory run `npm install`
+- Start the server by typing `npm run start`
 - It should say `Listening on Port 3001`
 
 ### To Test that the Server is Running
