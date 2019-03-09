@@ -1,0 +1,4 @@
+install:
+- travis_wait npm install -dd
+after_success:
+- "ssh root@138.68.40.165 '\''cd /root/basicapi && npm install && pm2 stop /root/basicapi/server/server.js && pm2 start /root/basicapi/server/server.js'\''"
