@@ -40,7 +40,7 @@ app.use(function(req, res, next) {
  *************************************/
 
  // Test whether the server is alive
-app.get('/api/amialive', (req, res) => {
+app.get('/amialive', (req, res) => {
    res.send({data: "Yes, I'm alive!"});
 });
 
