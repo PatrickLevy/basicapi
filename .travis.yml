@@ -1,5 +1,9 @@
 language: node_js
 install:
 - travis_wait npm install
-after_success:
-- "ssh root@138.68.40.165 '\''cd /root/basicapi && npm install && pm2 stop /root/basicapi/server/server.js && pm2 start /root/basicapi/server/server.js'\''"
+deploy:
+  provider: heroku
+  api_key:
+    secure: "fd8e7834-fd64-4f3d-b7c9-cd7357c1d7ae"
+# after_success:
+# - "ssh root@138.68.40.165 '\''cd /root/basicapi && npm install && pm2 stop /root/basicapi/server/server.js && pm2 start /root/basicapi/server/server.js'\''"
