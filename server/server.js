@@ -5,6 +5,7 @@ const app = express();
 const moment = require('moment');
 const monk = require('monk');
 const axios = require('axios');
+const port = 8080;
 
 // global var to cache most recent event, could connect to db in future
 var mostRecentGitHubEvent = {
@@ -39,7 +40,7 @@ app.use(function(req, res, next) {
  *************************************/
 
  // Test whether the server is alive
-app.get('/amialive', (req, res) => {
+app.get('/api/amialive', (req, res) => {
    res.send({data: "Yes, I'm alive!"});
 });
 
@@ -70,6 +71,6 @@ app.post('/arbitrary', (req, res) => {
     res.sendStatus(200);
 });
 
-app.listen(8080);
-console.log('Listening on port 3001...');
+app.listen(port);
+console.log('Listening on port ', port);
 
