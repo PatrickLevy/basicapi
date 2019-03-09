@@ -2,8 +2,5 @@ language: node_js
 install:
 - travis_wait npm install
 deploy:
-  provider: heroku
   api_key:
-    secure: "fd8e7834-fd64-4f3d-b7c9-cd7357c1d7ae"
-# after_success:
-# - "ssh root@138.68.40.165 '\''cd /root/basicapi && npm install && pm2 stop /root/basicapi/server/server.js && pm2 start /root/basicapi/server/server.js'\''"
+    secure: TKakenFaV7rDxyrYIh13Wf7+Orzq5d1w8UEcRzduqabc3IvBhaqhAfB+PR+RHaxqXdYDkBAA29Zi3d+dD+la7q5cykIMfL7lq7FObtcgzcx/kT210ldJnP5sqhIBeQ7HqaYRdULdqkj4UhGdRf5kjnfZ56m51mL7zwcL03IViDQzzbCYKslMezL9XRzDD3EYNFK+nDHiC1mQphlsOxTZx0wCsbODWQ9/nQ0s17YWSrVzF7nheQnh0Xz93pkxXMHo0stgvuuVzZO1RIte+8PjhVvb6iTICDZiX62i2DWzMjn6ItNjYngQCDcIsUYKycSCxv8C8Vts6lSJT+pGCjlVQ+xI7gDa0ZYzYZueOmjNzXCVSnZdi3lzWbytdLRMUha+Tpl1L5I0LRGBNOcLgO67YRjoXqHnAVgu5VrNitM6npuetkkSJsczMYXkAj6HLGhBl6eAimzKstR2lqoAdRuLXxya27ec2BwunD/VQvgT9vvIci/n5jkVQhm8xUpLZ2qgLtljKMgK44JdFMOfeLw/G3YNRZHvkyleMKt2fYTX30KJUA/OFsrU24eUfalEWxKoze+Oh013hrNWXDYJF3nk+cFsQ5IetdOT2WP0yxN/LrHD8htZiD0TvnZIg5WBv/Oswnt0vgdzBtRW1yVXemMomEIxXOh0W4Fq9MQMSB9/+nI=
