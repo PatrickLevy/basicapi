@@ -58,7 +58,7 @@ app.post('/arbitrary', (req, res) => {
     console.log('Received a post to /arbitrary...');
 
 
-    mostRecentArbitraryData x= {
+    mostRecentArbitraryData = {
         data: req.body.data,
         action: req.body.action,
         message: req.body.message,
