@@ -71,9 +71,6 @@ app.post('/arbitrary', (req, res) => {
     res.sendStatus(200);
 });
 
-// app.listen(port);
-// console.log('Listening on port ', port);
-
 // Initialize the app.
 var server = app.listen(process.env.PORT || port, function () {
     var port = server.address().port;

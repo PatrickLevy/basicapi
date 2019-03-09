@@ -1,5 +1,4 @@
 //const API_BASE_URL = 'http://localhost:3001'
-// const API_BASE_URL = 'https://www.codingclub.dev/api'
 const API_BASE_URL = 'https://aqueous-hollows-70414.herokuapp.com'
 
 function sayHello () {
