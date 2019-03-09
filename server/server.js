@@ -58,7 +58,7 @@ app.post('/arbitrary', (req, res) => {
     console.log('Received a post to /arbitrary...');
 
 
-    mostRecentArbitraryData = {
+    mostRecentArbitraryData x= {
         data: req.body.data,
         action: req.body.action,
         message: req.body.message,
@@ -71,6 +71,12 @@ app.post('/arbitrary', (req, res) => {
     res.sendStatus(200);
 });
 
-app.listen(port);
-console.log('Listening on port ', port);
+// app.listen(port);
+// console.log('Listening on port ', port);
+
+// Initialize the app.
+var server = app.listen(process.env.PORT || port, function () {
+    var port = server.address().port;
+    console.log("App now running on port", port);
+  });
 
