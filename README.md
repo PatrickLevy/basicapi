@@ -1,6 +1,11 @@
-# Basic API Example
+# Website with NodeJS Server Backend Example
 
 ### https://patricklevy.github.io/basicapi/
+
+## Overview
+A typical web application is split up into frontend and backend portions. The frontend consits of HTML, JavaScript, and CSS that run in the user's browser. The backend runs on a server somewhere that is publicly accessible. The backend usually has a database (PostgreSQL or MongoDB are common) so that it can store information for the users.
+- This project uses GitHub Pages to serve the frontend.
+- This project uses a NodeJS server hosted on Heroku for the backend
 
 ## Getting Started (Local Development)
 ### To Run Locally
