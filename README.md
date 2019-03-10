@@ -22,10 +22,6 @@
 ### To Test Retrieving the Last Posted Data
 - Send a `GET` message (or open a browser) to `localhost:3001/arbitrary`
 
-### Next Steps:
-- The data that is sent will currently be lost if you server is stopped. A good next step would be to hook up this api to a database for more permanent storage.
-- Host this on a remote server so that your front end web application can access it. Use the native JavaScript Fetch api, jQuery, or NPM package axios to make requests to this backend api server.
-
 ## Remote Deployment to Cloud Server
 
 ### Digital Ocean or Heroku?
@@ -43,6 +39,18 @@
 - Install the heroku command line tool for your computer https://devcenter.heroku.com/articles/heroku-cli
 - Commit all of your code changes: `git commit -am "Lots of super great updates and stuff"`
 - Deploy to Heroku: `git push heroku master`
+
+### Test your deployment
+- If you don't specify a domain to use on heroku they will make one up. This project is located at `https://aqueous-hollows-70414.herokuapp.com`
+- Test the endpoints like you did earlier:
+  - Put this into your browser: `https://aqueous-hollows-70414.herokuapp.com/amialive`
+  - ...or this: `https://aqueous-hollows-70414.herokuapp.com/arbitrary`
+  - ...or use Insomnia / PostMan to send Post messages
+- Now this can be used on your front end web application
+
+### Next Steps:
+- The data that is sent will currently be lost if you server is stopped. A good next step would be to hook up this api to a database for more permanent storage.
+- Host this on a remote server so that your front end web application can access it. Use the native JavaScript Fetch api, jQuery, or NPM package axios to make requests to this backend api server.
 
 
 Have fun!
