@@ -5,7 +5,7 @@ const app = express();
 const moment = require('moment');
 const monk = require('monk');
 const axios = require('axios');
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 // global var to cache most recent event, could connect to db in future
 var mostRecentGitHubEvent = {
