@@ -30,7 +30,7 @@ A typical web application is split up into frontend and backend portions. The fr
 ### Test the Front End Web Page
 - Open a browser
 - Click `File` -> `Open File` and browse to wherever this project is on your local machine
-- You should eventually see a message coming from the server on the page ("Hello everyone from the arbitrary endpoint!")
+- You should eventually see a message coming from the server (hosted on heroku) on the page ("Hello everyone from the arbitrary endpoint!")
 - Start your server (if it isn't already running - `npm run start-local`)
 - Edit the file `appscript.js` and change the `API_BASE_URL` to your local server - `http://localhost:3001`
 - Now you can test changes to your backend server before you deploy it to heroku
