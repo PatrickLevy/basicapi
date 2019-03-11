@@ -27,6 +27,14 @@ A typical web application is split up into frontend and backend portions. The fr
 ### To Test Retrieving the Last Posted Data
 - Send a `GET` message (or open a browser) to `localhost:3001/arbitrary`
 
+### Test the Front End Web Page
+- Open a browser
+- Click `File` -> `Open File` and browse to wherever this project is on your local machine
+- You should eventually see a message coming from the server on the page ("Hello everyone from the arbitrary endpoint!")
+- Start your server (if it isn't already running - `npm run start-local`)
+- Edit the file `appscript.js` and change the `API_BASE_URL` to your local server - `http://localhost:3001`
+- Now you can test changes to your backend server before you deploy it to heroku
+
 ## Remote Deployment to Cloud Server
 
 ### Digital Ocean or Heroku?
@@ -35,7 +43,7 @@ A typical web application is split up into frontend and backend portions. The fr
   - They have a free tier
   - Provide a public URL (instead of a raw ip address)
   - They enable SSL by default (https)
-  - It pretty easy to integrate into GitHub for automatic deployment of code upon merge.
+  - It is pretty easy to integrate into GitHub for automatic deployment of code upon merge.
 - They are certainly other cloud hosting providers, these are just that two that I've used
 
 ## Depolying your server to Heroku
