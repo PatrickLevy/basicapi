@@ -1,8 +1,8 @@
 /**********************************************************************
  *  Server Settings
  * ********************************************************************/
-// const API_BASE_URL = 'https://aqueous-hollows-70414.herokuapp.com'
-const API_BASE_URL = 'http://localhost:3001'
+const API_BASE_URL = 'https://aqueous-hollows-70414.herokuapp.com'
+// const API_BASE_URL = 'http://localhost:3001'
 
 function sayHello () {
   console.log('hello from a function on the front end')
