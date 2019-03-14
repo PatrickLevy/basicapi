@@ -11,7 +11,7 @@ A typical web application is split up into frontend and backend portions. The fr
 ### To Run Locally
 - Install Node (this should also install npm - node package manager)
 - Clone this repo
-- From the root directory run `npm install`
+- From the root directory run `npm install` (this will install all dependencies listed in the package.json)
 - Start the server by typing `npm run start-local`
 - It should say `Listening on Port 3001`
 
