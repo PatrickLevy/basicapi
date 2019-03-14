@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "start": "cross-env node ./server/server.js",
+    "start": "cross-env ./server/server.js",
     "start-local": "cross-env PORT=3001 nodemon ./server/server.js"
   },
   "author": "",
